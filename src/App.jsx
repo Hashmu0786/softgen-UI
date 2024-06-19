@@ -16,9 +16,16 @@ import TrademarkSection from './pages/TrademarkSection'
 
 function App() {
 
+  const backgroundImageStyle = {
+    backgroundImage: 'url(https://wp.dynamiclayers.net/softgen/wp-content/plugins/softgen-core/assets/img/bg/gradiant-bg-1.jpg)',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+  };
+
   return (
     <>
-    <div className='bg-softgen overflow-hidden'>
+     <div className='overflow-hidden' style={backgroundImageStyle}>
       <Home/>
     </div>
     <div>

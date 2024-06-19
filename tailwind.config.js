@@ -9,6 +9,10 @@ export default {
       backgroundImage: {
         'softgen': 'linear-gradient(45deg, rgba(101, 182, 255, 1) 0%, rgba(75, 131, 255, 1) 100%)',
       },
+      colors: {
+        primary: '#33cc33',
+        'light-sky-blue': '#87CEEB',
+      },
     },
   },
   plugins: [],
